@@ -33,22 +33,5 @@ From the repository root directory, run the script via terminal:
 ```bash
 Rscript src/analysis.R
 
-## Repository Structure
 
-```text
-.
-├── data/
-│   ├── dataset_for_analysis/
-│   │   └── DA dataset-20261125T092909Z-1-001.zip   # Full dataset archive for analysis
-│   └── sample/                                       # Sample OES CSV files for quick inspection/testing
-│       ├── 261103-18.CSV
-│       ├── 26260-1.CSV
-│       ├── 26363-2.CSV
-│       └── 26723-1.CSV
-├── report/
-│   └── Project_Outline_LDA_LaTeX_Report.pdf          # Project outline / report
-├── slides/
-│   └── CE1.pdf                                       # Presentation slides
-└── src/
-    ├── analysis.R                                    # R script for data analysis, modeling, and evaluation
-    └── analysis.ipynb
+
